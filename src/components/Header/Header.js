@@ -7,7 +7,7 @@ import 'animate.css';
 
 const Header = () => {
     return (
-        <div >
+        <div id="home">
             {/* navbar  */}
           <Navbar bg="light" expand="lg" sticky="top" className="navbar-style">
             <Container >
@@ -16,7 +16,7 @@ const Header = () => {
                 <Navbar.Collapse id="basic-navbar-nav " className="justify-content-end" >
                 <Nav >
                     <Nav.Link className="nav-text" href="#home">Home</Nav.Link>
-                    <Nav.Link className="nav-text"  href="#home">About</Nav.Link>
+                    <Nav.Link className="nav-text"  href="#about">About</Nav.Link>
                     <Nav.Link className="nav-text" href="#home">Skills</Nav.Link>
                     <Nav.Link className="nav-text" href="#home">Contact</Nav.Link>
                 </Nav>
@@ -26,17 +26,17 @@ const Header = () => {
 
             <div className="d-flex align-items-center justify-content-center banner-container">
 
-                <div className="banner-content d-flex align-items-center justify-content-center">
+                <div className="banner-content">
                     <div>
                         <img className="img-style " src={Me} alt="" />
                     </div>        
                         <div className=" banner-body">
                             <div className="wrapper">
-                                <div class="static-txt">
+                                <div className="static-txt">
                                     <h4>Hi there,I am </h4>
                                     <h1 className="animate__flipInY">MD.SAJEDUL ISLAM</h1>
                                 </div>
-                                <ul class="dynamic-txts">
+                                <ul className="dynamic-txts">
                                     <li><span>Software Engineer</span></li>
                                 </ul>
                                 <button className="btn-contact">Contact me</button>

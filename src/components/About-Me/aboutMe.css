@@ -1,0 +1,17 @@
+
+.image-style{
+    height: 375px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-content p{
+    color: #6D6A7C;
+}
+
+@media (max-width: 680px) {
+    #about{
+        margin-top: -200px;
+    }
+  }

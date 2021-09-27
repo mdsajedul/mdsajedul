@@ -34,6 +34,9 @@
 
 .banner-content{
     margin-top: -310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-body{
@@ -109,3 +112,22 @@
 .btn-contact:active{
     background-color: #6b30eb; 
 }
+@media (max-width: 680px) {
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .wrapper .static-txt h1{
+        font-size: smaller;
+    }
+    .banner-container{
+        margin-top: 100px;
+        background-repeat: no-repeat;
+        background-image: url('../../images/cover-2.svg');
+        height: 550px;
+    }
+    .wrapper{
+        margin-top: -350px;
+    }
+  }
