@@ -1,0 +1,111 @@
+
+.navbar-style{
+    background-color: #7844E9 !important;
+    
+}
+.nav-text{
+    color: white !important;
+}
+.image{
+    margin-top: 50px;
+    margin-right: 20px;
+}
+.img-style{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border:2px solid 7844E9;
+    transition: 0.3s;
+    
+}
+.img-style:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 155px;
+    width: 155px;
+   
+}
+
+.banner-container{
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-image: url('../../images/cover-2.svg');
+    height: 400px;
+}
+
+.banner-content{
+    margin-top: -310px;
+}
+
+.banner-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin-left: 20px;
+}
+
+.wrapper .static-txt{
+    color: #7844E9;
+    font-size: 40px;
+    font-weight: 400;
+
+}
+.wrapper .static-txt h1{
+    font-size: larger;
+}
+.wrapper .dynamic-txts{
+    margin-left: 15px;
+    height: 30px;
+    line-height: 30px;
+    
+    overflow: hidden;
+
+}
+.dynamic-txts li{
+    color: #7844E9;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+    top:0;
+}
+@keyframes slide{
+    100%{
+       top:-360px
+    }
+}
+.dynamic-txts li span{
+    position:relative;
+}
+.dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-color:white;
+    border-left: 2px solid #7844E9;
+    animation: typing 1.5s steps(15) infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin:0 -35px 0 35px;
+    }
+}
+
+.btn-contact{
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 25px;
+    background-color: #7844E9;
+    color: white;
+    border-radius: 5px;
+    margin-left: 45px;
+    text-decoration: none;
+}
+.btn-contact:active{
+    background-color: #6b30eb; 
+}
