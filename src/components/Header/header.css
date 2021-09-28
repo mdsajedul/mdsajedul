@@ -1,6 +1,7 @@
 
 .navbar-style{
     background-color: #7844E9 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 .nav-text{
@@ -111,6 +112,9 @@
 }
 .btn-contact:active{
     background-color: #6b30eb; 
+}
+.a:hover{
+    color: white;
 }
 @media (max-width: 680px) {
     .banner-content{
