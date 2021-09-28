@@ -113,7 +113,7 @@
 .btn-contact:active{
     background-color: #6b30eb; 
 }
-.a:hover{
+a:hover{
     color: white;
 }
 @media (max-width: 680px) {
