@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+.container-style{
+    font-family: 'Poppins', sans-serif;
+}
+
+.skill-title{
+    font-weight: 600;
+}
+
+.skill-progress li{
+    display: inline-block;
+}
+
+.skill-card{
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 445px;
+}
+
+.mini-card{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
