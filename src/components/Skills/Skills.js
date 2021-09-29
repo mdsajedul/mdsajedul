@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 const Skills = () => {
    
     return (
-        <div className="container container-style my-5 ">
+        <div id="skills" className="container container-style my-5 ">
             <h1 className="text-center my-5 skill-title">Skills</h1>
             <div className="row gy-4">
 

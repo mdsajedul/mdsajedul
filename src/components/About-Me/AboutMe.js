@@ -22,7 +22,7 @@ const AboutMe = () => {
                     <div className="col d-flex justify-content-center py-3">
                         <div className="about-content" data-aos="fade-left">
                             <h4 className="about-name">I am <span>Sajedul</span></h4>
-                            <p><b>A passionate web designer and Font-end Web developer</b></p>
+                            <p><b>A passionate Web Designer and Front-End Web Developer</b></p>
                             <p className="">My expertise includes problem solving and critical thinking as well as creative and innovative thinking. I love to contribute to the society and learning from experience is my motto that's why I always looking forward for opportunities which will enhance my skills and help me build my future. As a technology lover I enjoy creating new things, solving complex problems by combining technology and computers to accomplish this end
                             </p>
                             <a className="btn-download" data-aos="fade-down" target="_blank" rel="noreferrer" href={resume}>Resume {downloadIcon}</a>
