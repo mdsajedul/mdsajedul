@@ -15,7 +15,7 @@
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 445px;
+    
 }
 
 .mini-card{
@@ -24,3 +24,33 @@
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+
+
+.icon-bar,.title-bar{
+    padding: 15px;
+}
+.icon-bar i{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.icon-bar p{
+    margin-bottom: 0 !important;
+}
+
+
+
+@media (max-width: 680px) {
+    .skill-mini-card{
+        flex-direction: column;
+    }
+    .languages-icon{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .languages-icon>*{
+        flex: 1 1 360px;
+    }
+  }
