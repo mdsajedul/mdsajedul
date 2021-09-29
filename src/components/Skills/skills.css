@@ -26,7 +26,12 @@
 }
 
 
-
+.icon-bar{
+    transition: transform 0.2s ease-in-out;
+}
+.icon-bar:hover{
+    transform: scale(1.2);
+}
 
 .icon-bar,.title-bar{
     padding: 15px;
