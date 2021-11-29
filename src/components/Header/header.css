@@ -56,46 +56,7 @@
 .wrapper .static-txt h1{
     font-size: larger;
 }
-.wrapper .dynamic-txts{
-    margin-left: 15px;
-    height: 30px;
-    line-height: 30px;
-    
-    overflow: hidden;
 
-}
-.dynamic-txts li{
-    color: #7844E9;
-    list-style: none;
-    font-size: 30px;
-    font-weight: 500;
-    position: relative;
-    top:0;
-}
-@keyframes slide{
-    100%{
-       top:-360px
-    }
-}
-.dynamic-txts li span{
-    position:relative;
-}
-.dynamic-txts li span::after{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    background-color:white;
-    border-left: 2px solid #7844E9;
-    animation: typing 1.5s steps(15) infinite;
-}
-@keyframes typing{
-    100%{
-        left: 100%;
-        margin:0 -35px 0 35px;
-    }
-}
 
 .btn-contact{
     border: none;
@@ -134,3 +95,5 @@ a:hover{
         margin-top: -530px;
     }
   }
+
+ 

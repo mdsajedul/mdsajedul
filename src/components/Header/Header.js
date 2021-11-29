@@ -4,6 +4,8 @@ import './header.css'
 import Me from  '../../images/profile-pic.png' ;
 import cover from  '../../images/me.png' ;
 import 'animate.css';
+import TypewriterComponent from 'typewriter-effect';
+
 
 const Header = () => {
     return (
@@ -36,9 +38,21 @@ const Header = () => {
                                     <h4>Hi there,I am </h4>
                                     <h1 className="animate__flipInY">MD.SAJEDUL ISLAM</h1>
                                 </div>
-                                <ul className="dynamic-txts">
-                                    <li><span>Software Engineer</span></li>
-                                </ul>
+ 
+                                <p style={{fontSize:'24px', color:'#7844E9',paddingLeft:'25px'}}>
+                                    <TypewriterComponent
+                                        options={{
+                                            strings: ['Web Developer', 'Web Designer', 'Web Designer'],
+                                            autoStart: true,
+                                            loop: true,
+                                            delay: 100,
+                                        }}
+                                    />
+                                </p>
+                                
+
+                                    {/* <li><span>Software Engineer</span></li> */}
+                               
                                 <button className="btn-contact">Contact me</button>
                             </div>
                            

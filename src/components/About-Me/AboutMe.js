@@ -15,11 +15,11 @@ const AboutMe = () => {
             <h2 className="text-center mb-5 about-me-header">About Me</h2>
 
             <div className="container">
-                <div className="row mx-2 ">
-                    <div data-aos="fade-right" className="col d-flex justify-content-center align-items-center py-3">
-                        <img className="image-style" src={FullImage} alt="" />
+                <div className="row mx-2 gx-0 ">
+                    <div data-aos="fade-right" className="col-lg-6 d-flex justify-content-center align-items-center flex-column p-4">
+                        <img  width="350px" className="image-style" src={FullImage} alt="" />
                     </div>
-                    <div className="col d-flex justify-content-center py-3">
+                    <div className="col-lg-6 d-flex justify-content-center align-items-center p-4 ">
                         <div className="about-content" data-aos="fade-left">
                             <h4 className="about-name">I am <span>Sajedul</span></h4>
                             <p><b>A passionate Web Designer and Front-End Web Developer</b></p>
