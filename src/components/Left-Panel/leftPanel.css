@@ -1,0 +1,11 @@
+.left-container{
+    display: block !important;
+}
+.left-pro-image{
+    margin-top: 50px;
+    width: 180px;
+    height: 180px;
+}
+.left-button{
+    flex-direction: column !important;
+}
