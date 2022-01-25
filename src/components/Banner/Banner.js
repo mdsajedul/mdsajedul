@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     return (
-        <div >
+        <div id='home' >
             <div className='banner-style'></div>
 
             <div className="content p-5 ">

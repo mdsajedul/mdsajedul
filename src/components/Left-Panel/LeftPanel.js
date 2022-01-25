@@ -17,7 +17,7 @@ const LeftPanel = () => {
                 <img className='left-pro-image ' src={myImage} alt="" />
                 <div className='my-3 mx-3'>
                     <Nav.Link href="#home"> <i class="fas fa-home"></i> Home</Nav.Link>
-                    <Nav.Link href="#pricing"> <i class="fas fa-user"></i> About Me</Nav.Link>
+                    <Nav.Link href="#about"> <i class="fas fa-user"></i> About Me</Nav.Link>
                     <Nav.Link href="#contact"> <i class="fas fa-envelope"></i> Contact</Nav.Link>
                 </div>
             </Nav>

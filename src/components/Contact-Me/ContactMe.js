@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './contactMe.css'
 
 
 const ContactMe = () => {
@@ -17,8 +18,8 @@ const ContactMe = () => {
       };
 
     return (
-        <div className='container'>
-            <h1 className='text-center'>GET IN TOUCH</h1>
+        <div id='contact' className='container my-3'>
+            <h1 className='text-center mb-3'>GET IN TOUCH</h1>
             <div className='row gx-0'>
                 <div className="col-lg-5">
                     <div>
@@ -27,18 +28,34 @@ const ContactMe = () => {
                         <p>Always available for frelancing if the right project comes along Feel free to contact me.</p>
                     </div>
                 </div>
-                <div className="col-lg-7">
+                <div className="col-lg-7 px-3">
                 <form ref={form} onSubmit={sendEmail}>
+
+                    <div className='row gx-0'>
+
+                        <div className="col-lg-6 p-1">
+                            <input placeholder='YOUR NAME' type="text" name="user_name" />
+                        </div>
+
+                        <div className="col-lg-6 p-1">
+                            <input placeholder='YOUR EMAIL' type="email" name="user_email" />
+                        </div>
+
+                    </div>
                    
-                    <input placeholder='YOUR NAME' type="text" name="user_name" />
+                   <div className="p-1">
+                        <input placeholder='SUBJECT' type="text" name="user_subject" id="" />
+                   </div>
                     
-                    <input placeholder='YOUR EMAIL' type="email" name="user_email" />
-                    
-                    <input placeholder='SUBJECT' type="text" name="user_subject" id="" />
+                    <div className='p-1'>
+                        <textarea placeholder='YOUR MESSAGE' name="message" />
+                    </div>
 
-                    <textarea placeholder='YOUR MESSAGE' name="message" />
+                    <div className="p-1">
+                        <input type="submit" value="Send" />
+                    </div>
 
-                    <input type="submit" value="Send" />
+                   
                 </form>
                 </div>
             </div>
