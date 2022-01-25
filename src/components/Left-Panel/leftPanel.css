@@ -1,3 +1,7 @@
+.navbar-style{
+    position: fixed;
+}
+
 .left-container{
     display: block !important;
 }

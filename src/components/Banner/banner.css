@@ -1,0 +1,24 @@
+.banner-style{
+    background: url('../../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+.content{
+    
+}
+
+.my-name h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.auto-type-design{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(238, 175, 16);
+}
