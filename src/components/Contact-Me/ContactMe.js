@@ -18,14 +18,18 @@ const ContactMe = () => {
       };
 
     return (
-        <div id='contact' className='container my-3'>
+        <div id='contact' className='container my-3 px-2'>
             <h1 className='text-center mb-3'>GET IN TOUCH</h1>
             <div className='row gx-0'>
                 <div className="col-lg-5">
                     <div>
-                        <h1>What's your story?</h1>
-                        <h2>Get in touch</h2>
+                        <h3>What's your story?</h3>
+                        <h5>Get in touch</h5>
                         <p>Always available for frelancing if the right project comes along Feel free to contact me.</p>
+                        <div>
+                            <p><i class="fas fa-map-marker-alt"></i> Dhaka, Bangladesh</p>
+                            <p><i class="fas fa-envelope-open-text"></i> sajedulislms@gmail.com</p>
+                        </div>
                     </div>
                 </div>
                 <div className="col-lg-7 px-3">

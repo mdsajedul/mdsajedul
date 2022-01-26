@@ -1,5 +1,6 @@
 .navbar-style{
     position: fixed;
+    height:100%;
 }
 
 .left-container{
@@ -13,3 +14,10 @@
 .left-button{
     flex-direction: column !important;
 }
+
+@media screen and (max-width: 480px) {
+    .navbar-style {
+      position: relative;
+      height:unset;
+    }
+  }
