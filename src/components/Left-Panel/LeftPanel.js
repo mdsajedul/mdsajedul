@@ -4,7 +4,7 @@ import './leftPanel.css';
 import myImage from '../../images/profile-pic.png'
 
 const LeftPanel = () => {
-    return (
+    return ( 
        
 
         <Navbar className='navbar-style' collapseOnSelect expand="lg" bg="light" variant="light" fixed=''>
@@ -18,6 +18,7 @@ const LeftPanel = () => {
                 <div className='my-3 mx-3'>
                     <Nav.Link href="#home"> <i class="fas fa-home"></i> Home</Nav.Link>
                     <Nav.Link href="#about"> <i class="fas fa-user"></i> About Me</Nav.Link>
+                    <Nav.Link href="#myworks"> <i class="fas fa-briefcase"></i> My Works</Nav.Link>
                     <Nav.Link href="#contact"> <i class="fas fa-envelope"></i> Contact</Nav.Link>
                 </div>
             </Nav>

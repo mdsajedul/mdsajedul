@@ -1,24 +1,31 @@
 import React from 'react';
-// import {Swiper} from 'swiper/bundle';
-
-
-
+import { useEffect } from 'react';
+import { useState } from 'react';
+import Project from '../Project/Project';
 
 const Projects = () => {
+    const [projects, setProjects]=useState([]);
+    useEffect(()=>{
+        fetch('/projects.json')
+        .then(res=>res.json())
+        .then(data => {
+            setProjects(data)
+        })
+    },[])
     return (
         <div>
-            <h1>Projects</h1>
-            {/* <div>
-            <Swiper effect={'coverflow'} grabCursor={true} centeredSlides={true} slidesPerView={'auto'} coverflowEffect={{
-            "rotate": 50,
-            "stretch": 0,
-            "depth": 100,
-            "modifier": 1,
-            "slideShadows": true
-            }} pagination={true} className="mySwiper">
-                <SwiperSlide><img src="https://swiperjs.com/demos/images/nature-1.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-2.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-3.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-4.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-5.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-6.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-7.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-8.jpg" /></SwiperSlide><SwiperSlide><img src="https://swiperjs.com/demos/images/nature-9.jpg" /></SwiperSlide>
-            </Swiper>
-            </div> */}
+            <div id='myworks'>
+                <h3 className='text-center'>My Portfolio</h3>
+                <div>
+                    <div className="row gx-0">
+                        {
+                            projects.map(project => <Project key={project.id} 
+                            project={project}
+                            ></Project>)
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
