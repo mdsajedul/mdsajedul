@@ -13,7 +13,7 @@ const Projects = () => {
         })
     },[])
     return (
-        <div>
+        <div className='my-3'>
             <div id='myworks'>
                 <h3 className='text-center'>My Portfolio</h3>
                 <div>

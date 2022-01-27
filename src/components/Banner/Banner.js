@@ -34,7 +34,7 @@ const Banner = () => {
                                 <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
                             </div>
                             <div>
-                            <a className="btn-download" data-aos="fade-down" target="_blank" rel="noreferrer" href={resume}>Resume {downloadIcon}</a>
+                            <a className="btn-download-resume" data-aos="fade-down" target="_blank" rel="noreferrer" href={resume}>Resume {downloadIcon}</a>
                             </div>
                         </div>
                     </div>

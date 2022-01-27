@@ -1,25 +1,28 @@
 [{
     "id":1,
-    "name":"Glassy- A sunglass selling website",
+    "name":"Glassy ",
+    "subheading":"Glassy is a e-comarce website, where sunglasses are sold",
     "technology":"React, NodeJs, ExpressJs, Bootstrap, Firebase",
     "overview":["This is a sunglass selling full-stact website"],
-    "imgmain":"",
-    "images":""
+    "imgmain":"https://i.ibb.co/kmGYLf2/gl-new-1.png",
+    "images":"https://ibb.co/2SSMbgN"
     },
     {
     "id":2,
-    "name":"TourX- A tour booking website",
+    "name":"TourX",
+    "subheading":"From TourX tourists can buy various tourism packages",
     "technology":" React, NodeJs, ExpressJs, Bootstrap, Firebase",
     "overview":"",
-    "imgmain":"",
-    "images":""
+    "imgmain":"https://i.ibb.co/yXJ8F0k/tr-1.png",
+    "images":"https://ibb.co/8xKRXbQ"
     },
     {
     "id":3,
-    "name":"Mediplus- A medical clinic website",
+    "name":"Mediplus",
+    "subheading":"Patients receive medical services from MediPlus",
     "technology":"Technology: React, Bootstrap, Firebase",
     "overview":"",
-    "imgmain":"",
+    "imgmain":"https://i.ibb.co/Svfmm8j/md-1.png",
     "images":""
     }
 ]

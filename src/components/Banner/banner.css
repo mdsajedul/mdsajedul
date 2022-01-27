@@ -9,7 +9,24 @@
     position: fixed;
 } */
 
-
+.btn-download-resume{
+    border: none;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 25px;
+    background-color: #7844E9;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a:hover{
+    color: white;
+}
+.btn-download-resume:active{
+    background-color: #5f1cf0;
+}
 
 .my-name h1{
     /* font-size: 80px; */

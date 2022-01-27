@@ -11,7 +11,8 @@ const ContactMe = () => {
     
         emailjs.sendForm('service_6y92fvr', 'template_gglat5b', form.current, 'user_dps0IVFyqE3pSzPj01YSZ')
           .then((result) => {
-              console.log(result.text);
+
+              console.log(result);
           }, (error) => {
               console.log(error.text);
           });
@@ -38,17 +39,17 @@ const ContactMe = () => {
                     <div className='row gx-0'>
 
                         <div className="col-lg-6 p-1">
-                            <input placeholder='YOUR NAME' type="text" name="user_name" />
+                            <input placeholder='YOUR NAME' type="text" name="name" />
                         </div>
 
                         <div className="col-lg-6 p-1">
-                            <input placeholder='YOUR EMAIL' type="email" name="user_email" />
+                            <input placeholder='YOUR EMAIL' type="email" name="email" />
                         </div>
 
                     </div>
                    
                    <div className="p-1">
-                        <input placeholder='SUBJECT' type="text" name="user_subject" id="" />
+                        <input placeholder='SUBJECT' type="text" name="subject" id="" />
                    </div>
                     
                     <div className='p-1'>
@@ -56,7 +57,8 @@ const ContactMe = () => {
                     </div>
 
                     <div className="p-1">
-                        <input type="submit" value="Send" />
+                        {/* <input className='btn-contact-me' type="submit" value="Send " /> */}
+                        <button type="submit" className='btn-contact-me w-100'>SEND <i class="fas fa-paper-plane"></i></button>
                     </div>
 
                    
