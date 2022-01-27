@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import LeftPanel from './components/Left-Panel/LeftPanel';
+import ProjectDetail from './components/Project-Detail/ProjectDetail';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
                     <div className="col-lg-9 gx-0">
                         <Routes>
                             <Route path="/" element={<Home/>}> </Route>
+                            <Route path="/project-detail/:projectId" element={<ProjectDetail/>}> </Route>
+
                         </Routes>
                     </div>
                 </div>

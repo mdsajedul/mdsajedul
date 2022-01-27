@@ -1,45 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 .about-me{
     font-family: 'Poppins', sans-serif;
+    
 }
 .about-me-header{
     font-weight: 700;
 }
-.image-style{
-    
+.img-container-about-me{
+    padding: 20px;
+}
+.img-container-about-me img{
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
+    /* height: 350px;
+    width: 280px; */
 }
 
-
-.about-name{
-    font-weight: 600;
+.content-container-about-me{
+    padding: 20px;
 }
 
-
-.about-content p{
-    color: #6D6A7C;
-}
-
-.btn-download{
-    border: none;
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    padding: 10px 25px;
-    background-color: #7844E9;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.btn-download:active{
-    background-color: #5f1cf0;
-}
-
-/* @media (max-width: 680px) {
-    #about{
-        margin-top: -200px;
+@media screen and (min-width: 480px) {
+    .img-container-about-me img{
+        height: 350px;
+        width: 280px;
     }
-  } */
+  }

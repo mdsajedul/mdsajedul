@@ -13,12 +13,12 @@ const Projects = () => {
         })
     },[])
     return (
-        <div className='my-3'>
+        <div>
             <div id='myworks'>
-                <h3 className='text-center'>My Works</h3>
+                <h3 className='text-center mt-5'>My Works</h3>
                 <div>
                     <h4 className='ps-3'>Projects</h4>
-                    <div className="row gx-0">
+                    <div className="row gx-0 mb-5">
                         {
                             projects.map(project => <Project key={project.id} 
                             project={project}

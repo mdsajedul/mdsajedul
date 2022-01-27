@@ -26,6 +26,13 @@
     padding: 5px;
     transition: 0.5s;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: unset;
+}
 
 .card-btn{
     padding: 5px;
