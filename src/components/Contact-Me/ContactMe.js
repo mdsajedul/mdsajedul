@@ -1,26 +1,34 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contactMe.css'
+import toast, { Toaster } from 'react-hot-toast';
+
 
 
 const ContactMe = () => {
     const form = useRef();
-
+ 
     const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs.sendForm('service_6y92fvr', 'template_gglat5b', form.current, 'user_dps0IVFyqE3pSzPj01YSZ')
           .then((result) => {
-
-              console.log(result);
+                if(result.text==="OK"){
+                    toast.success('Mail Sent')
+                }
           }, (error) => {
-              console.log(error.text);
+              if(error){
+                  toast.error('Mail not sent, Please try agin later!')
+              }
           });
       };
 
     return (
         <div id='contact' className='container my-3 px-2'>
+
+
             <h1 className='text-center mb-3'>GET IN TOUCH</h1>
+            <Toaster/>
             <div className='row gx-0'>
                 <div className="col-lg-5">
                     <div>
@@ -39,21 +47,21 @@ const ContactMe = () => {
                     <div className='row gx-0'>
 
                         <div className="col-lg-6 p-1">
-                            <input placeholder='YOUR NAME' type="text" name="name" />
+                            <input placeholder='YOUR NAME' type="text" name="name" required />
                         </div>
 
                         <div className="col-lg-6 p-1">
-                            <input placeholder='YOUR EMAIL' type="email" name="email" />
+                            <input placeholder='YOUR EMAIL' type="email" name="email" required/>
                         </div>
 
                     </div>
                    
                    <div className="p-1">
-                        <input placeholder='SUBJECT' type="text" name="subject" id="" />
+                        <input placeholder='SUBJECT' type="text" name="subject" id="" required/>
                    </div>
                     
                     <div className='p-1'>
-                        <textarea placeholder='YOUR MESSAGE' name="message" />
+                        <textarea placeholder='YOUR MESSAGE' name="message" required/>
                     </div>
 
                     <div className="p-1">

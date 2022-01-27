@@ -42,3 +42,9 @@
 .project-card:hover .card-btn{
     display: block;
 }
+
+@media screen and (max-width: 480px) {
+    .project-card{
+        height: 360px;
+    }
+  }

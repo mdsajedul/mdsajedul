@@ -15,8 +15,9 @@ const Projects = () => {
     return (
         <div className='my-3'>
             <div id='myworks'>
-                <h3 className='text-center'>My Portfolio</h3>
+                <h3 className='text-center'>My Works</h3>
                 <div>
+                    <h4 className='ps-3'>Projects</h4>
                     <div className="row gx-0">
                         {
                             projects.map(project => <Project key={project.id} 
