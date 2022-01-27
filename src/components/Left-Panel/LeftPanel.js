@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from "react-bootstrap";
 import './leftPanel.css';
 import myImage from '../../images/profile-pic.png'
+import { HashLink } from 'react-router-hash-link';
 
 const LeftPanel = () => {
     return ( 
@@ -15,12 +16,12 @@ const LeftPanel = () => {
         
             <Nav className="me-auto left-button d-flex justify-content-center p-5">
                 <img className='left-pro-image ' src={myImage} alt="" />
-                <div className='my-3 mx-3'>
-                    <Nav.Link href="#home"> <i class="fas fa-home"></i> Home</Nav.Link>
-                    <Nav.Link href="#about"> <i class="fas fa-user"></i> About Me</Nav.Link>
-                    <Nav.Link href="#myworks"> <i class="fas fa-briefcase"></i> My Works</Nav.Link>
-                    <Nav.Link href="#blogs"> <i class="fas fa-blog"></i> Blogs</Nav.Link>
-                    <Nav.Link href="#contact"> <i class="fas fa-envelope"></i> Contact</Nav.Link>
+                <div className='my-3 mx-3 left-btn-grp '>
+                    <HashLink className='btn-hashlink' to="/#home"> <i class="fas fa-home"></i> Home</HashLink>
+                    <HashLink className='btn-hashlink' to="/#about"> <i class="fas fa-user"></i> About Me</HashLink>
+                    <HashLink className='btn-hashlink' to="/#myworks"> <i class="fas fa-briefcase"></i> My Works</HashLink>
+                    <HashLink className='btn-hashlink' to="/#blogs"> <i class="fas fa-blog"></i> Blogs</HashLink>
+                    <HashLink className='btn-hashlink' to="/#contact"> <i class="fas fa-envelope"></i> Contact</HashLink>
                 </div>
             </Nav>
         </Navbar.Collapse>
