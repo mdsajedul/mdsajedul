@@ -19,6 +19,7 @@ const LeftPanel = () => {
                     <Nav.Link href="#home"> <i class="fas fa-home"></i> Home</Nav.Link>
                     <Nav.Link href="#about"> <i class="fas fa-user"></i> About Me</Nav.Link>
                     <Nav.Link href="#myworks"> <i class="fas fa-briefcase"></i> My Works</Nav.Link>
+                    <Nav.Link href="#blogs"> <i class="fas fa-blog"></i> Blogs</Nav.Link>
                     <Nav.Link href="#contact"> <i class="fas fa-envelope"></i> Contact</Nav.Link>
                 </div>
             </Nav>
