@@ -5,7 +5,7 @@
     "technology":"React, NodeJs, ExpressJs, Bootstrap, Firebase",
     "overview":["This is a sunglass selling full-stact website"],
     "imgmain":"https://i.ibb.co/kmGYLf2/gl-new-1.png",
-    "images":"https://ibb.co/2SSMbgN"
+    "images":["https://i.ibb.co/kmGYLf2/gl-new-1.png","https://i.ibb.co/Mff1XM6/gla-2.png","https://i.ibb.co/yYHSKS8/gla-today-2.png","https://i.ibb.co/MRqHKwW/gla-today-1.png"]
     },
     {
     "id":2,
@@ -14,7 +14,7 @@
     "technology":" React, NodeJs, ExpressJs, Bootstrap, Firebase",
     "overview":"",
     "imgmain":"https://i.ibb.co/yXJ8F0k/tr-1.png",
-    "images":"https://ibb.co/8xKRXbQ"
+    "images":["https://i.ibb.co/yXJ8F0k/tr-1.png","https://i.ibb.co/n1gVRBK/tr-2.png","https://i.ibb.co/CBVpg87/tr-today-1.png","https://i.ibb.co/SBY7MzB/tr-today-2.png","https://i.ibb.co/yYHghqc/tr-today-3.png"]
     },
     {
     "id":3,
@@ -23,6 +23,6 @@
     "technology":"Technology: React, Bootstrap, Firebase",
     "overview":"",
     "imgmain":"https://i.ibb.co/Svfmm8j/md-1.png",
-    "images":""
+    "images":["https://i.ibb.co/Svfmm8j/md-1.png","https://i.ibb.co/RBWcLrj/md-today-1.png","https://i.ibb.co/tCG4PxS/md-today-2.png"]
     }
 ]
