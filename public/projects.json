@@ -3,25 +3,25 @@
     "name":"Glassy ",
     "subheading":"Glassy is a e-comarce website, where sunglasses are sold",
     "technology":"React, NodeJs, ExpressJs, Bootstrap, Firebase",
-    "overview":["This is a sunglass selling full-stact website"],
+    "overview":["This is a sunglass selling full-stact website","Users can browse all sunglass collections and details","Users can order sunglass & manage orders and give feedback"],
     "imgmain":"https://i.ibb.co/kmGYLf2/gl-new-1.png",
-    "images":["https://i.ibb.co/kmGYLf2/gl-new-1.png","https://i.ibb.co/Mff1XM6/gla-2.png","https://i.ibb.co/yYHSKS8/gla-today-2.png","https://i.ibb.co/MRqHKwW/gla-today-1.png"]
+    "images":["https://i.ibb.co/kmGYLf2/gl-new-1.png","https://i.ibb.co/CwKv7C1/gla-today-last.png","https://i.ibb.co/yYHSKS8/gla-today-2.png","https://i.ibb.co/MRqHKwW/gla-today-1.png"]
     },
     {
     "id":2,
     "name":"TourX",
     "subheading":"From TourX tourists can buy various tourism packages",
     "technology":" React, NodeJs, ExpressJs, Bootstrap, Firebase",
-    "overview":"",
+    "overview":["Users can see all tour packages and details","Users can book tour packages, manage bookings and add new packages","Users can cancel their bookings"],
     "imgmain":"https://i.ibb.co/yXJ8F0k/tr-1.png",
-    "images":["https://i.ibb.co/yXJ8F0k/tr-1.png","https://i.ibb.co/n1gVRBK/tr-2.png","https://i.ibb.co/CBVpg87/tr-today-1.png","https://i.ibb.co/SBY7MzB/tr-today-2.png","https://i.ibb.co/yYHghqc/tr-today-3.png"]
+    "images":["https://i.ibb.co/yXJ8F0k/tr-1.png","https://i.ibb.co/n1gVRBK/tr-2.png","https://i.ibb.co/CBVpg87/tr-today-1.png","https://i.ibb.co/SBY7MzB/tr-today-2.png"]
     },
     {
     "id":3,
     "name":"Mediplus",
     "subheading":"Patients receive medical services from MediPlus",
     "technology":"Technology: React, Bootstrap, Firebase",
-    "overview":"",
+    "overview":["This is a front-end design of a medical clinic website","Users can see all services of the hospital","Logged In users can see details of services"],
     "imgmain":"https://i.ibb.co/Svfmm8j/md-1.png",
     "images":["https://i.ibb.co/Svfmm8j/md-1.png","https://i.ibb.co/RBWcLrj/md-today-1.png","https://i.ibb.co/tCG4PxS/md-today-2.png"]
     }

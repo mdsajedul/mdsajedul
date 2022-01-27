@@ -1,4 +1,22 @@
 .small-img-view{
     height: 50px;
     width: 100px;
+    border-radius: 7px;
+}
+.image-container-project img{
+    /* border: 5px solid rgba(195, 188, 188, 0.671); */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.small-img-btn{
+    border: none;
+    padding: 0;
+    border: 3px solid rgba(195, 188, 188, 0.671);
+    border-radius: 10px;
+}
+.small-img-btn:focus{
+    border: 3px solid #7844E9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }

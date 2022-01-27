@@ -6,7 +6,6 @@ import "./projectDetail.css"
 const ProjectDetail = () => {
     const {projectId} = useParams();
     const [project,setProject] = useState([]);
-    // const [rerender, setRerender] = useState(false);
     const [imageOnView,setImageOnView]=useState('')
 
     useEffect(()=>{
@@ -35,16 +34,28 @@ const ProjectDetail = () => {
                         <div className='image-container-project'>
                             <img src={imageOnView} className='container-fluid' alt="" />
                         </div>
-                        <div className='small-container-img d-flex'>
+                        <div className='small-container-img d-flex my-4'>
                             {
                                 project?.images?.map(image=> <div className='mx-2'>
-                                    <button onClick={()=>imageChange(image)}>
+                                    <button className='small-img-btn' onClick={()=>imageChange(image)}>
                                         <img className='small-img-view' src={image} alt="" />
                                     </button>
                                     
                                 </div>)
-                                
                             }
+                        </div>
+                        <hr />
+                        <div>
+                            <h2>{project.name}</h2>
+                            <p>{project.subheading}</p>
+                            <h4>Overview</h4>
+                            <ul>
+                                {
+                                    project?.overview?.map(list=> <li>{list}</li>)
+                                }
+                            </ul>
+
+
                         </div>
                     </div>
                 </div>
