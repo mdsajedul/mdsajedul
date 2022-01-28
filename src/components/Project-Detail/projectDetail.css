@@ -7,16 +7,74 @@
     /* border: 5px solid rgba(195, 188, 188, 0.671); */
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* transition: 0.5s; */
 
 }
 .small-img-btn{
+    margin: 10px;
     border: none;
     padding: 0;
     border: 3px solid rgba(195, 188, 188, 0.671);
     border-radius: 10px;
+    transition: 0.5s;
 }
 .small-img-btn:focus{
     border: 3px solid #7844E9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+.preview-btn-grp{
+    margin-top: 45px;
+}
+
+.preview-btn-grp .preview-btn{
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 15px;
+    margin: 15px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    color: #7844E9;
+    transition: 0.3s;
+}
+
+.icon-fa{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.icon-fa:after{
+    content:"";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.preview-btn-grp .preview-btn:hover{
+    background-color: #7844E9;
+    color: white;
+}
+.preview-btn-grp .preview-btn:hover .icon-fa{
+    padding-left: 25px;
+}
+.preview-btn-grp .preview-btn:hover .icon-fa:after{
+    opacity: 1;
+    right: 0;
+}
+
+.not-found-btn{
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 15px;
+    margin: 15px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    color: red;
+    transition: 0.3s;
 }
